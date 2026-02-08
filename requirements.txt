@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langsmith
+requests
+fastapi
+uvicorn
+langserve
+sse_starlette
