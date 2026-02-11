@@ -1,0 +1,17 @@
+python3 -m venv .venv
+source .venv/bin/activate
+
+export LANGCHAIN_TRACING_V2=true
+export LANGCHAIN_API_KEY=lsv2_
+export LANGCHAIN_PROJECT=simple-chatbot
+export GROQ_API_KEY=gsk_
+
+
+ uvicorn medi_bot.medi_server:app --reload
+
+ streamlit run medi_bot/medi_app.py
+
+
+ uvicorn medi_grok.medi_server:app --reload
+
+ streamlit run medi_grok/medi_app.py
