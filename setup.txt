@@ -1,3 +1,4 @@
+
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -15,3 +16,4 @@ export GROQ_API_KEY=gsk_
  uvicorn medi_grok.medi_server:app --reload
 
  streamlit run medi_grok/medi_app.py
+
