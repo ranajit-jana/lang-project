@@ -13,3 +13,7 @@ source .venv/bin/activate
  streamlit run rag/client/app.py
 
  uvicorn rag.server.server:app --reload
+ 
+ streamlit run rag-pdf/client/streamlit.py
+
+ uvicorn rag-pdf.server.server:app --reload
